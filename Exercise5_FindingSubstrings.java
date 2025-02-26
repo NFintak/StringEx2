@@ -21,7 +21,7 @@ public class Exercise5_FindingSubstrings {
         if (sentence.contains(word)) {
             System.out.println("The word '".concat(word).concat("' was found in the sentence."));
         }  else {
-            System.out.println("That word was not found in the sentence");
+            System.out.println("The word '".concat(word).concat("' was not found in the sentence"));
         }
 
         scanner.close();
