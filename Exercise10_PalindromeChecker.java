@@ -18,9 +18,9 @@ public class Exercise10_PalindromeChecker {
         StringBuilder mirror = new StringBuilder(input);
         String reversed = mirror.reverse().toString();
         if (reversed.equalsIgnoreCase(input)) {
-            System.out.println(input + " is a palindrome");
+            System.out.println("'" + input + "' is a palindrome");
         }  else {
-            System.out.println(input + " is not a palindrome");
+            System.out.println("'" + input + "' is not a palindrome");
         }
 
         scanner.close();
