@@ -15,7 +15,14 @@ public class Exercise10_PalindromeChecker {
         String input = scanner.nextLine();
         
         // TODO: Check if the string is a palindrome and print the result
-        
+        StringBuilder mirror = new StringBuilder(input);
+        String reversed = mirror.reverse().toString();
+        if (reversed.equalsIgnoreCase(input)) {
+            System.out.println(input + " is a palindrome");
+        }  else {
+            System.out.println(input + " is not a palindrome");
+        }
+
         scanner.close();
     }
 }
