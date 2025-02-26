@@ -17,7 +17,9 @@ public class Exercise1_StringLength {
         String name = scanner.nextLine();
         
         // TODO: Print the length of the name using the length() method
-        
+
+        System.out.print("Your name has " + name.length() + " characters");
+
         scanner.close();
     }
 }

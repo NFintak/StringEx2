@@ -19,7 +19,18 @@ public class Exercise4_StringComparison {
         
         // TODO: Compare the strings using equals() and equalsIgnoreCase()
         // and print whether they are equal or not in both cases
-        
+        if (str1.equals(str2)) {
+            System.out.println("These strings are exactly the same");
+        }  else {
+            System.out.println("These strings aren't equal");
+        }
+
+        if (str1.equalsIgnoreCase(str2)) {
+            System.out.println("These strings are equal");
+        }  else {
+            System.out.println("These strings aren't equal");
+        }
+
         scanner.close();
     }
 }

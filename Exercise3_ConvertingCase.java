@@ -16,9 +16,9 @@ public class Exercise3_ConvertingCase {
         String message = scanner.nextLine();
         
         // TODO: Convert and print the message in all uppercase
-        
+        System.out.println(message.toUpperCase());
         // TODO: Convert and print the message in all lowercase
-        
+        System.out.println(message.toLowerCase());
         scanner.close();
     }
 }
