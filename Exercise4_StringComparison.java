@@ -20,15 +20,15 @@ public class Exercise4_StringComparison {
         // TODO: Compare the strings using equals() and equalsIgnoreCase()
         // and print whether they are equal or not in both cases
         if (str1.equals(str2)) {
-            System.out.println("These strings are exactly the same");
+            System.out.println("Case sensitive comparison: The strings are equal");
         }  else {
-            System.out.println("These strings aren't equal");
+            System.out.println("Case sensitive comparison: The strings are not equal");
         }
 
         if (str1.equalsIgnoreCase(str2)) {
-            System.out.println("These strings are equal");
+            System.out.println("Case insensitive comparison: The strings are equal");
         }  else {
-            System.out.println("These strings aren't equal");
+            System.out.println("Case insensitive comparison: The strings are not equal");
         }
 
         scanner.close();
