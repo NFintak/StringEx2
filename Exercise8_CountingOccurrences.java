@@ -32,7 +32,6 @@ public class Exercise8_CountingOccurrences {
         stringFragments.append(" times in the string.");
 
         String finalString = stringFragments.toString();
-
         System.out.println(finalString);
 
         scanner.close();

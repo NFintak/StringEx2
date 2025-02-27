@@ -24,7 +24,6 @@ public class Exercise4_StringComparison {
         }  else {
             System.out.println("Case sensitive comparison: The strings are not equal");
         }
-
         if (str1.equalsIgnoreCase(str2)) {
             System.out.println("Case insensitive comparison: The strings are equal");
         }  else {

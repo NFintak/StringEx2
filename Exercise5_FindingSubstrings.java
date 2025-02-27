@@ -23,7 +23,6 @@ public class Exercise5_FindingSubstrings {
         }  else {
             System.out.println("The word '".concat(word).concat("' was not found in the sentence"));
         }
-
         scanner.close();
     }
 }

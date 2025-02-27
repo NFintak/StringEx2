@@ -22,6 +22,7 @@ public class Exercise6_CharacterExtraction {
         System.out.println("First character: " + firstLetter);
         System.out.println("Last character: " + lastLetter);
         System.out.println("Middle character(s): " + middleLetters);
+
         scanner.close();
     }
 }
